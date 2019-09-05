@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* region 清浮动 */
+.clear-fix::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.clear-fix {
+    zoom: 1;
+}
+/* endregion */
+
+.input-box {
+    border: none;
+    tab-index:-1;
+    /*background:none;*/
+    outline:none;
+}
+
+/* region 每一行主要内容 */
+.row {
+    position: relative;
+    width: 1099px;
+    margin: 0 auto;
+}
+
+
+
+.site-nav a {
+    color: #ccc;
+}
+
+ ul {
+    list-style: none;
+}
+
+ a {
+     color: #333333;
+     text-decoration: none;
+ }
+
+ .left {
+     float: left;
+ }
+
+ .right {
+     float: right;
+ }

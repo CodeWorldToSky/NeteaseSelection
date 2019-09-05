@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+.site-nav {
+    background-color: #333;
+    height: 36px;
+    line-height: 36px;
+}
+
+.site-nav .row {
+    background-color: #00f;
+}
+
+.site-nav a {
+    color: #ccc;
+    font-size: 12px;
+}
+
+.site-nav a:hover {
+    color: #fff;
+}
+
+.site-nav .slogn {
+    float: left;
+    margin-right: 36px;
+}
+
+.site-nav .notice-list {
+    float: left;
+    height: 36px;
+    padding-left: 26px;
+    background: url(../images/notice-icon.gif) no-repeat left center;
+    overflow: hidden;
+}
+
+.site-nav .notice-list ul {
+    position: relative;
+    top: 0;
+}
+
+.site-nav .notice-list li {
+    height: 36px;
+}
+
+.site-nav .notice-list a {
+    vertical-align: top;
+    text-decoration: underline;
+}
+
+.site-nav .notice-list a:hover {
+    text-decoration: none;
+}
+
+.site-nav .item,.divider {
+    float: left;
+}
+
+.site-nav .login {
+    margin-right: 20px;
+}
+
+.site-nav .divider {
+    width: 1px;
+    height: 16px;
+    background-color: #5c5c5c;
+    margin: 10px 10px 0;
+}
+
+.func-nav {
+    height: 100px;
+}
+
+.func-nav .logo {
+    height: 60px;
+    width: 180px;
+    margin: 50px auto 0;
+    background: url(../images/component.png) 0 -146px no-repeat;
+}
+
+
+.func-nav .search-box {
+    position: absolute;
+    height: 22px;
+    width: 205px;
+    top: 65px;
+    right: 80px;
+    /*background-color: #ff0;*/
+}
+
+.search-box .input-box {
+    width: 180px;
+    height: 22px;
+    float: left;
+    border-bottom: 1px solid #D8CEBC;
+}
+
+.search-box .search-icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: url(../images/component.png) 0 -291px no-repeat;
+}
+
+.func-nav .shop-car {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 50px;
+    right: 0;
+}
+
+.func-nav .shop-car .car {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 0;
+    bottom: 0;
+    background: url(../images/component.png) 0 -113px no-repeat;
+}
+
+.func-nav .shop-car .count {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f00;
+    color: #fff;
+    font-style: normal;
+    font-size: 14px;
+}
