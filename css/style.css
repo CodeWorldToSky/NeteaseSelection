@@ -65,18 +65,14 @@
 
 
 /* region 功能导航 */
-
 .site-func {
-    height: 150px;
-}
-
-.site-func .row {
     position: relative;
+    z-index: 1;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.25);
 }
 
 .site-func .row {
     height: 204px;
-    background-color: #0ff;
 }
 
 .site-func .logo{
@@ -103,7 +99,6 @@
     width: 240px;
     height: 30px;
     background-color: #ff0;
-
 }
 
 .site-func .search-box input {
@@ -133,8 +128,6 @@
     /*top + margin-top + height + margin-bottom + bottom*/
 }
 
-
-
 .site-func .shopcar {
     position: absolute;
     right: 9px;
@@ -144,8 +137,6 @@
     height: 32px;
     /*background-color: #f00;*/
 }
-
-
 
 .site-func .shopcar .car {
     position: absolute;
@@ -171,33 +162,53 @@
     height: 19px;
 }
 
-
 .site-func .tab-nav {
     position: absolute;
-
     left: 30px;
-    bottom: 10px;
+    bottom: 0;
 }
 
 .site-func .tab-nav .item {
     float: left;
-    margin-right: 40px;
-
+    height: 35px;
+    margin: 0 24px;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .site-func .tab-nav .item a {
-    border-bottom: 5px solid #000;
-}
-
-.site-func .tab-nav .active{
-    color: #b4a078;
-    border-bottom: #b4a078;
-}
-
-.site-func .tab-nav .item a:hover{
     display: block;
+    padding-bottom: 5px;
+}
+
+.site-func .tab-nav .item:hover a,
+.site-func .tab-nav .item.active a {
     color: #b4a078;
-    border-bottom:  #b4a078;
+    border-bottom: 3px solid #b4a078;
 }
 
 /* enregion 功能导航 */
+
+
+
+/* region 内容部分 */
+
+.slider {
+    background-color: #f00;
+}
+
+.slider .image-list {
+    position: relative;
+    height: 420px;
+    left: -960px;
+    margin-left: 50%;
+}
+
+.slider .image-list li {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* enregion 内容部分*/
+

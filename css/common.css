@@ -16,6 +16,7 @@
 
 /* region 每一行主要内容 */
 .row {
+    position: relative;
     width: 1099px;
     margin: 0 auto;
 }
