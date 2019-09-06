@@ -14,21 +14,11 @@
 }
 /* endregion */
 
-.input-box {
-    border: none;
-    tab-index:-1;
-    /*background:none;*/
-    outline:none;
-}
-
 /* region 每一行主要内容 */
 .row {
-    position: relative;
     width: 1099px;
     margin: 0 auto;
 }
-
-
 
 .site-nav a {
     color: #ccc;

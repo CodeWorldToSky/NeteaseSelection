@@ -7,9 +7,6 @@
     line-height: 36px;
 }
 
-.site-nav .row {
-    background-color: #00f;
-}
 
 .site-nav a {
     color: #ccc;
@@ -66,68 +63,111 @@
     margin: 10px 10px 0;
 }
 
-.func-nav {
-    height: 100px;
+
+/* region 功能导航 */
+
+.site-func {
+    height: 150px;
 }
 
-.func-nav .logo {
-    height: 60px;
-    width: 180px;
-    margin: 50px auto 0;
-    background: url(../images/component.png) 0 -146px no-repeat;
+.site-func .row {
+    position: relative;
 }
 
+.site-func .row {
+    height: 204px;
+    background-color: #0ff;
+}
 
-.func-nav .search-box {
+.site-func .logo{
     position: absolute;
-    height: 22px;
-    width: 205px;
-    top: 65px;
-    right: 80px;
-    /*background-color: #ff0;*/
-}
-
-.search-box .input-box {
     width: 180px;
-    height: 22px;
-    float: left;
-    border-bottom: 1px solid #D8CEBC;
+    height: 60px;
+    left: 0;
+    right: 0;
+    margin: 50px auto 0;
+    /*background:  url(../images/component.png) 0 -146px no-repeat;*/
 }
 
-.search-box .search-icon {
+.site-func .logo a{
+    height: 60px;
+    width: 80px;
+    font-size: 0;
+}
+
+.site-func .search-box {
+    position: absolute;
+    right: 60px;
+    top: 76px;
+
+    width: 240px;
+    height: 30px;
+    background-color: #ff0;
+}
+
+.site-func .search-box input {
+    width: 200px;
+    height: 30px;
+
+    border: none;
+    outline: none;
+}
+
+.site-func .search-box .search-icon {
+    position: absolute;
+    background: url(../images/component.png) 0 -291px no-repeat;
+
     width: 20px;
     height: 20px;
-    float: left;
-    background: url(../images/component.png) 0 -291px no-repeat;
+
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    margin: auto 0;
+
+    /*letf + margin-left + widh + margin-right + right*/
+
+    /*top + margin-top + height + margin-bottom + bottom*/
 }
 
-.func-nav .shop-car {
+
+
+.site-func .shopcar {
     position: absolute;
-    width: 35px;
-    height: 35px;
-    top: 50px;
-    right: 0;
+    right: 9px;
+    top: 65px;
+
+    width: 34px;
+    height: 32px;
+    /*background-color: #f00;*/
 }
 
-.func-nav .shop-car .car {
+
+
+.site-func .shopcar .car {
     position: absolute;
-    width: 23px;
-    height: 23px;
+    background: url(../images/component.png) 0 -113px no-repeat;
     left: 0;
     bottom: 0;
-    background: url(../images/component.png) 0 -113px no-repeat;
+
+    width: 23px;
+    height: 23px;
 }
 
-.func-nav .shop-car .count {
+.site-func .shopcar .count {
     position: absolute;
-    width: 19px;
-    height: 19px;
+    background: url(../images/component.png) 0 -51px no-repeat;
     top: 0;
     right: 0;
+
+    line-height: 19px;
     text-align: center;
-    border-radius: 50%;
-    background-color: #f00;
+    font-size: 12px;
     color: #fff;
-    font-style: normal;
-    font-size: 14px;
+    width: 19px;
+    height: 19px;
+
 }
+
+
+/* enregion 功能导航 */
