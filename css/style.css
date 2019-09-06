@@ -103,6 +103,7 @@
     width: 240px;
     height: 30px;
     background-color: #ff0;
+
 }
 
 .site-func .search-box input {
@@ -111,6 +112,8 @@
 
     border: none;
     outline: none;
+
+    border-bottom: 1px solid #000;
 }
 
 .site-func .search-box .search-icon {
@@ -166,8 +169,35 @@
     color: #fff;
     width: 19px;
     height: 19px;
+}
+
+
+.site-func .tab-nav {
+    position: absolute;
+
+    left: 30px;
+    bottom: 10px;
+}
+
+.site-func .tab-nav .item {
+    float: left;
+    margin-right: 40px;
 
 }
 
+.site-func .tab-nav .item a {
+    border-bottom: 5px solid #000;
+}
+
+.site-func .tab-nav .active{
+    color: #b4a078;
+    border-bottom: #b4a078;
+}
+
+.site-func .tab-nav .item a:hover{
+    display: block;
+    color: #b4a078;
+    border-bottom:  #b4a078;
+}
 
 /* enregion 功能导航 */
